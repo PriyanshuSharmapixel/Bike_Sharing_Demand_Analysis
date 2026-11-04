@@ -1,0 +1,10 @@
+trip_minutes,turnaround_minutes,usable_fraction,largest_hourly_workload_bikes
+15,5,0.75,394
+15,5,0.85,347
+15,5,0.95,311
+30,5,0.75,689
+30,5,0.85,608
+30,5,0.95,544
+45,5,0.75,983
+45,5,0.85,868
+45,5,0.95,777

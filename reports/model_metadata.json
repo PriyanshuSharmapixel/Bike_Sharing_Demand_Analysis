@@ -1,0 +1,25 @@
+{
+  "selected_model": "Histogram boosting",
+  "selection": "Lowest unweighted mean MAE across three expanding-window validation folds. Fixed candidate settings; test used once for final reporting.",
+  "training_end": "2012-06-30",
+  "calibration_start": "2012-07-01",
+  "calibration_end": "2012-08-31",
+  "test_start": "2012-09-01",
+  "test_end": "2012-12-31",
+  "train_rows": 13003,
+  "calibration_rows": 1488,
+  "test_rows": 2888,
+  "nominal_interval_coverage": 0.9,
+  "calibration_absolute_error_quantile": 117.83074822395827,
+  "test_interval_coverage_percent": 89.36980609418282,
+  "test_average_interval_width": 206.47114737072536,
+  "test_daily_aggregation_metrics": {
+    "MAE": 947.6081438267322,
+    "RMSE": 1052.0696785036553,
+    "WAPE_percent": 16.663259331248362,
+    "R2": 0.7117655063437269,
+    "bias_rentals": -796.8894649188153
+  },
+  "forecast_contract": "Retrospective hourly rental estimates conditional on observed weather. Operational use needs hourly weather forecasts; forecast-weather degradation has not been measured. No lags, no target components, no station allocation. Not a 2026 production forecast.",
+  "interval_limitations": "Absolute-residual split calibration on July-August. Nominal 90% marginal intervals; temporal dependence and seasonal drift violate exchangeability. Hourly intervals are not a joint daily interval."
+}

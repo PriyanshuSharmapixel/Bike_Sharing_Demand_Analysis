@@ -1,0 +1,25 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scikit_learn": "1.8.0",
+  "random_seed": 42,
+  "input_files": {
+    "Readme.txt": {
+      "sha256": "b92c8628622948bf0828c43a1b315d1517c3d7fd63654730d0dea379b8e88175",
+      "bytes": 5607
+    },
+    "case_study.pdf": {
+      "sha256": "0432209e159ae741bcbe34460935d50b55c9ba7900d7e4163e854bc5f98c56ea",
+      "bytes": 44781
+    },
+    "day.csv": {
+      "sha256": "a6bcf826782d3c0fbfdcbeead17cd0884185a0dafe8ff10cd48a874ee7ba18be",
+      "bytes": 57569
+    },
+    "hour.csv": {
+      "sha256": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f",
+      "bytes": 1156736
+    }
+  }
+}
