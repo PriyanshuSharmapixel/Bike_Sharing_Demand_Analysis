@@ -8,6 +8,10 @@ A complete, reproducible response to the supplied bike-sharing case study: data 
 
 ![Development-period hourly patterns](reports/figures/hourly_patterns.png)
 
+## Detailed Report
+
+[Read the detailed project report](https://drive.google.com/file/d/1YIqrBXFbac3QYx7WEVPCZQqhlXu9FPve/view)
+
 ## Start here
 
 1. Read the executed [analysis notebook](notebooks/bike_demand_analysis.ipynb).
