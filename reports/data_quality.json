@@ -1,0 +1,38 @@
+{
+  "hour": {
+    "rows": 17379,
+    "missing_cells": 0,
+    "duplicate_keys": 0,
+    "invalid_count_identity": 0,
+    "negative_counts": 0,
+    "invalid_scaled_weather": 0,
+    "invalid_calendar": 0,
+    "invalid_categories": 0,
+    "total_rentals": 3292679,
+    "invalid_hours": 0
+  },
+  "day": {
+    "rows": 731,
+    "missing_cells": 0,
+    "duplicate_keys": 0,
+    "invalid_count_identity": 0,
+    "negative_counts": 0,
+    "invalid_scaled_weather": 0,
+    "invalid_calendar": 0,
+    "invalid_categories": 0,
+    "total_rentals": 3292679
+  },
+  "date_start": "2011-01-01",
+  "date_end": "2012-12-31",
+  "missing_hour_slots": 165,
+  "incomplete_days": 76,
+  "daily_reconciliation_mismatches": 0,
+  "zero_humidity_rows": 22,
+  "weather_category_counts": {
+    "1": 11413,
+    "2": 4544,
+    "3": 1419,
+    "4": 3
+  },
+  "handling": "Keep supplied rows. Do not zero-fill absent hours or delete unusual weather/demand without evidence. Zeros in humidity are flagged, not silently imputed."
+}

@@ -1,0 +1,18 @@
+{
+  "hypothesis": "Working days have a greater 07:00-09:59 share of daily rentals than non-working days, adjusting for calendar month-year.",
+  "null": "The adjusted working-day coefficient is <= 0.",
+  "method": "Daily OLS with month-year fixed effects; ISO-style Monday-Sunday week-clustered covariance; one-sided t-test, alpha=0.05; two-sided 95% confidence interval.",
+  "period": "2011-01-01 through 2012-06-30, complete 24-hour days only",
+  "days": 477,
+  "week_clusters": 78,
+  "workingday_mean_share": 0.224089193750676,
+  "nonworking_mean_share": 0.0725891092026926,
+  "adjusted_difference_percentage_points": 15.259514846617328,
+  "ci95_percentage_points": [
+    14.420429150353097,
+    16.09860054288156
+  ],
+  "one_sided_p_value": 2.050553550844745e-50,
+  "reject_null_at_005": true,
+  "limitations": "Week clustering addresses within-week dependence, not all long-range dependence. Weather, rider composition, and unobserved availability can confound this observational association. Missing-day exclusions may select days. No causal claim."
+}
